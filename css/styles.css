@@ -65,3 +65,14 @@ h4, h5{
 	height: 1em;
 	flex-basis: 1.4em;
 }
+a:link{
+	color:black
+}
+a:hover{
+	
+color:black;
+background-color:#597394
+}
+a:visited{
+	color: #FAF9F6
+}
