@@ -3,7 +3,7 @@
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-.header{font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"}
+
 
 /* Styles for the body */
 
@@ -15,30 +15,44 @@ body {
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
+.name-header{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 50px;
+	color: #FAF9F6}
+.cv-tagline{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color: #FAF9F6}
+h2{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color: #C03C29}
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #597394;
 }
 
 .resume-main {
-	background-color: #fffefc;
+	background-color: #FAF9F6;
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #D3BECB;
 }
 
 /* Styles for lists in the document */
 
+h4, h5{
+	font-size: 18px;
+}
 .biography-details li::before, .skill-list li::before {
 	content: ">";
 	font-weight: 800;
 	display: inline-block;
 	width: 1em;
 	margin-left: -1em;
+	color:#C03C29;
 }
 
 .biography-details li::before {
-	color: #EE7623;
+	color:#C03C29;
 }
 
 .biography-details li, .skill-list li {
