@@ -81,14 +81,14 @@ a:visited{
 }
 
 .language-level .language-progress {
-    background-color: #d05a0b !important; /* Change to your desired color */
+    background-color: #C03C29 !important; /* Change to your desired color */
 }
  
 .language-level  {
     background-color: #D3BECB !important; /* Change to your desired color */
 }
 .language-level {
-    border: 4px solid #ff00dd; /* Change to your desired border color */
+    border: 4px solid; /* Change to your desired border color */
     border-color: #597394 !important;
     border-radius: 0px; /* Optional: Add rounded corners */
 }
